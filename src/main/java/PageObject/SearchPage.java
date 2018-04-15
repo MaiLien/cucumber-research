@@ -27,6 +27,11 @@ public class SearchPage {
 		String expected = "Sorry, but nothing matched your search criteria. Please try again with some different keywords.";
 		String actual = driver.findElement(By.xpath("//div[@id='content']/p")).getText();
 		Assert.assertEquals(expected, actual);
+		close();
+	}
+	
+	static public void close() {
+		driver.close();
 	}
 	
 }

@@ -18,9 +18,9 @@ public class Search_Steps {
 		SearchPage.enterSearchTextAndPressEnterKey("ABCDFE");
 	}
 	
-	//Parameterization without Examples Keyword
+	//Parameterization
 	@When("^user inputs \"(.*)\" into search product field and press Enter Key$")
-	public void user_inputs_name_into_search_field_and_press_Enter_Key_ParameterizationWithoutExamplesKeyword(String name) throws Throwable {
+	public void user_inputs_name_into_search_field_and_press_Enter_Key_UsingParameterization(String name) throws Throwable {
 		SearchPage.enterSearchTextAndPressEnterKey(name);
 	}
 	
