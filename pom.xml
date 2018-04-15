@@ -18,19 +18,22 @@
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>1.1.5</version>
+			<!-- <version>1.1.5</version> -->
+			<version>1.2.4</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-jvm</artifactId>
-			<version>1.1.5</version>
+			<!-- <version>1.1.5</version> -->
+			<version>1.2.4</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-junit</artifactId>
-			<version>1.1.5</version>
+			<!-- <version>1.1.5</version> -->
+			<version>1.2.4</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -47,7 +50,8 @@
 		<dependency>
 			<groupId>net.masterthought</groupId>
 			<artifactId>cucumber-reporting</artifactId>
-			<version>1.0.0</version>
+			<!-- <version>1.0.0</version> -->
+			<version>3.6.0</version>
 		</dependency>
 		<dependency>
 			<groupId>info.cukes</groupId>
@@ -71,8 +75,6 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.6.0</version>
 		</dependency>
-
-		
 
 	</dependencies>
 </project>
