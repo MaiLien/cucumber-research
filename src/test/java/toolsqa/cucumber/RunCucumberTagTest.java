@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = { "Feature/CucumberTag.feature" }, glue = { "StepDefinition" }, monochrome = true, tags = { "@SmokeTest, ~@End2End" })
+@CucumberOptions(features = { "Feature/CucumberTag.feature" }, glue = { "StepDefinition" }, monochrome = true, tags = { "@SmokeTest" })
 public class RunCucumberTagTest {
 
 }
